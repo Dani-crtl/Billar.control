@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de Mesas</title>
+    <link rel="stylesheet" href="StyleSheet2.css">
+</head>
+<body>
+
+    <header class="barra-superior">
+        <input type="text" placeholder="BUSCAR MESA" class="buscar">
+        <div class="iconos">
+            <button class="icono">+</button>
+            <button class="icono" onclick="window.location.href='login.html'">M</button>
+        </div>
+    </header>
+
+    <main class="contenedor-mesas">
+
+        <!-- Mesa 1 -->
+        <div class="mesa">
+            <h2>MESA #1</h2>
+            <p class="hora">6:00pm</p>
+            <p>ESTADO DE MESA: <span class="disponible">DISPONIBLE</span></p>
+
+            <button class="btn-iniciar">INICIAR</button>
+
+            <p>HORA DE INICIO:</p>
+
+            <input type="text" placeholder="BUSCAR PRODUCTO" class="input">
+
+            <button class="btn-finalizar">FINALIZAR</button>
+
+            <p>HORA FINAL:</p>
+            <p>TOTAL:</p>
+        </div>
+
+        <!-- Mesa 2 -->
+        <div class="mesa">
+            <h2>MESA #2</h2>
+            <p class="hora">7:30pm</p>
+            <p>ESTADO DE MESA: <span class="ocupada">OCUPADA</span></p>
+
+            <button class="btn-iniciar">INICIAR</button>
+
+            <p>HORA DE INICIO: 7:30PM</p>
+            <input type="text" placeholder="BUSCAR PRODUCTO" class="input">
+
+            <p>
+                Coca-Cola: $4.000<br>
+                Cerveza: $7.000<br>
+                Snacks: $5.000
+            </p>
+
+            <button class="btn-finalizar">FINALIZAR</button>
+
+            <p>HORA FINAL: 9:30PM</p>
+            <p>VALOR HORA: $10.000</p>
+            <p>TOTAL: $36.000</p>
+        </div>
+
+        <!-- Mesa 3 -->
+        <div class="mesa">
+            <h2>MESA #3</h2>
+            <p class="hora">9:00pm</p>
+            <p>ESTADO DE MESA: <span class="ocupada">OCUPADA</span></p>
+
+            <button class="btn-iniciar">INICIAR</button>
+
+            <p>HORA DE INICIO: 9:00PM</p>
+            <input type="text" placeholder="BUSCAR PRODUCTO" class="input">
+
+            <p>
+                Coca-Cola: x2 $4.000<br>
+                Cerveza: x5 $7.000<br>
+                Snacks: x3 $5.000
+            </p>
+
+            <button class="btn-finalizar">FINALIZAR</button>
+
+            <p>HORA FINAL: 11:00PM</p>
+            <p>VALOR HORA: $10.000</p>
+            <p>TOTAL: $78.000</p>
+        </div>
+
+    </main>
+
+</body>
+</html>
